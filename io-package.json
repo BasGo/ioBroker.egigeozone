@@ -4,13 +4,13 @@
         "version":                  "0.0.1",
         "news": {
             "0.0.1": {
-                "en": "Initial commit",
+                "en": "Initial release",
                 "de": "Initiale Version",
                 "ru": ""
             }
         },
         "title":                    "EgiGeoZone Adapter",
-        "desc":                     "Web server listening for EgiGeoZone HTTP calls. Based on dschaedls implementation for a Geofency adapter.",
+        "desc":                     "Server listening for EgiGeoZone HTTP requests.",
         "platform":                 "Javascript/Node.js",
         "mode":                     "daemon",
         "icon":                     "egigeozone.png",

@@ -1,10 +1,11 @@
 ![Logo](admin/egigeozone.png)
 # ioBroker.egigeozone
 
-This is an ioBroker adapter for Android geofencing app "EgiGeoZone" ([website](https://egigeozone.de/)). It is able to receive geofence events as HTTP requests when entering or leaving a defined area with your mobile device. The implementation is mostly based on dschaedls [ioBroker.geofency](https://github.com/ioBroker/ioBroker.geofency) adapter.
+**Tests:** Linux/Mac: [![Travis-CI](https://img.shields.io/travis/BasGo/ioBroker.egigeozone/master.svg)](https://travis-ci.org/BasGo/ioBroker.egigeozone)
+Windows: [![Build status](https://ci.appveyor.com/api/projects/status/eobyt279ncmd9qbi/branch/master?svg=true)](https://ci.appveyor.com/project/BasGo/iobroker-egigeozone/branch/master)
 
-# Contributors
-https://github.com/ioBroker/ioBroker.geofency
+# Description
+This is an ioBroker adapter for Android geofencing app "EgiGeoZone" ([website](https://egigeozone.de/)). It is able to receive geofence events as HTTP requests when entering or leaving a defined area with your mobile device. The implementation is mostly based on dschaedls [ioBroker.geofency](https://github.com/ioBroker/ioBroker.geofency) adapter.
 
 # Security advice
 It is not recommended to expose this adapter to the public internet (e.g. by opening the configured port in your router). This means that any request to this port will be forwarded to the ioBroker instance the adapter is running on. There are multiple options for gaining more security for accessing this adapter:
@@ -16,5 +17,5 @@ It is not recommended to expose this adapter to the public internet (e.g. by ope
 ### 0.0.1
 * (BasGo) Initial release
 
-## License
+# License
 This adapter is licensed under [the MIT license](../blob/master/LICENSE) which is part of this repository.
