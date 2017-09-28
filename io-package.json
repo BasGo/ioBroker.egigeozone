@@ -1,13 +1,18 @@
 {
     "common": {
         "name":                     "egigeozone",
-        "version":                  "0.0.1",
+        "version":                  "0.0.2",
         "news": {
             "0.0.1": {
                 "en": "Initial release",
                 "de": "Initiale Version",
-                "ru": ""
-            }
+                "ru": "Initial release"
+            },
+            "0.0.2": {
+              "en": "Updated NPM reference",
+              "de": "NPM-Referenz aktualisiert",
+              "ru": "Updated NPM reference"
+          }
         },
         "title":                    "EgiGeoZone Adapter",
         "desc": {

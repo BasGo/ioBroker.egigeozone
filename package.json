@@ -1,6 +1,6 @@
 {
   "name": "iobroker.egigeozone",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "EgiGeoZone adapter for ioBroker",
   "author": "Bastian Gogolin <basgo@gmx.de>",
   "contributors": [],
@@ -17,7 +17,7 @@
     "url": "https://github.com/BasGo/ioBroker.egigeozone"
   },
   "dependencies": {
-    "request": "^2.67.0",
+    "request": "^2.76.0",
     "url": "^0.11.0"
   },
   "devDependencies": {

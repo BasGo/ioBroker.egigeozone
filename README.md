@@ -1,6 +1,13 @@
 ![Logo](admin/egigeozone.png)
 # ioBroker.egigeozone
 
+[![NPM version](https://img.shields.io/npm/v/iobroker.egigeozone.svg)](https://www.npmjs.com/package/iobroker.egigeozone)
+[![Downloads](https://img.shields.io/npm/dm/iobroker.egigeozone.svg)](https://www.npmjs.com/package/iobroker.egigeozone)
+[![Dependency Status](https://img.shields.io/david/basgo/iobroker.egigeozone.svg)](https://david-dm.org/basgo/iobroker.egigeozone)
+
+
+[![NPM](https://nodei.co/npm/iobroker.egigeozone.png?downloads=true)](https://nodei.co/npm/iobroker.egigeozone/)
+
 **Tests:** Linux/Mac: [![Travis-CI](https://img.shields.io/travis/BasGo/ioBroker.egigeozone/master.svg)](https://travis-ci.org/BasGo/ioBroker.egigeozone)
 Windows: [![Build status](https://ci.appveyor.com/api/projects/status/eobyt279ncmd9qbi/branch/master?svg=true)](https://ci.appveyor.com/project/BasGo/iobroker-egigeozone/branch/master)
 
