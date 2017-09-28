@@ -24,5 +24,8 @@ It is not recommended to expose this adapter to the public internet (e.g. by ope
 ### 0.0.1
 * (BasGo) Initial release
 
+### 0.0.2
+* (BasGo) Updated NPM reference
+
 # License
 This adapter is licensed under [the MIT license](../blob/master/LICENSE) which is part of this repository.
