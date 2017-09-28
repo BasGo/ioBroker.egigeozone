@@ -10,7 +10,11 @@
             }
         },
         "title":                    "EgiGeoZone Adapter",
-        "desc":                     "Server listening for EgiGeoZone HTTP requests.",
+        "desc": {
+          "en":                   "Server listening for EgiGeoZone HTTP requests.",
+          "de":                   "Stellt Server für EgiGeoZone HTTP Requests bereit.",
+          "ru":                   "Server listening for EgiGeoZone HTTP requests."
+        },
         "platform":                 "Javascript/Node.js",
         "mode":                     "daemon",
         "icon":                     "egigeozone.png",
