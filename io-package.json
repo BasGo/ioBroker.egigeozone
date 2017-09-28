@@ -1,0 +1,72 @@
+{
+    "common": {
+        "name":                     "egigeozone",
+        "version":                  "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "Initial commit",
+                "de": "Initiale Version",
+                "ru": ""
+            }
+        },
+        "title":                    "EgiGeoZone Adapter",
+        "desc":                     "Web server listening for EgiGeoZone HTTP calls. Based on dschaedls implementation for a Geofency adapter.",
+        "platform":                 "Javascript/Node.js",
+        "mode":                     "daemon",
+        "icon":                     "egigeozone.png",
+        "extIcon":                  "https://raw.githubusercontent.com/BasGo/ioBroker.egigeozone/master/admin/egigeozone.png",
+        "readme":                   "https://github.com/BasGo/ioBroker.egigeozone",
+        "license":                  "MIT",
+        "npmLibs": [],
+        "type":                     "service",
+        "keywords":                 ["iobroker", "server", "geofence", "egigeozone", "mobile app"],
+        "loglevel":                 "info",
+        "enabled":                  true,
+        "localLink":                "http://%ip%:%port%",
+        "messagebox":               true,
+        "subscribe":                "messagebox"
+    },
+    "native": {
+        "activate_server": true,
+        "port": 7654,
+        "ssl": false,
+        "user": "geo",
+        "pass": "geo",
+        "atHome": "Home",
+        "ignoreLeaving": false
+    },
+    "objects": [
+
+    ],
+    "instanceObjects": [
+    {
+      "_id": "atHome",
+      "type": "state",
+      "common": {
+        "name": "atHome",
+        "type": "string",
+        "role": "state",
+        "read": true,
+        "write": false,
+        "def": 0,
+        "desc": "Present persons"
+      },
+      "native": { }
+    },
+    {
+      "_id": "atHomeCount",
+      "type": "state",
+      "common": {
+        "name": "atHomeCount",
+        "type": "number",
+        "role": "state",
+        "read": true,
+        "write": false,
+        "def": [],
+        "desc": "Number of present persons"
+      },
+      "native": { }
+    }
+  ]
+
+}
