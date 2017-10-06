@@ -19,13 +19,32 @@ It is not recommended to expose this adapter to the public internet (e.g. by ope
 * Always use a VPN connection for requests or
 * integrate a proxy server (e.g. nginx) for filtering incoming requests.
 
+# Configuration
+
+Inside EgiGeoZone the URL should be defined using the following syntax:
+
+protocol://address:port/person
+
+* **protocol** could be **http** or **https**.
+* **address** should be the address where the adapter instace is accessible.
+* **port** should be the port the adapter is listening on.
+* **person** is the person which will be used to list inside the atHome array.
+
+### Examples
+* https://my-domain:7654/John or
+* http://my-domain:7654/Paul
+
 # Changelog
 
-### 0.0.1
-* (BasGo) Initial release
+### 0.1.0
+* (BasGo) Fixed issue with authorization
+* (BasGo) Added description for URL configuration
 
 ### 0.0.2
 * (BasGo) Updated NPM reference
+
+### 0.0.1
+* (BasGo) Initial release
 
 # License
 This adapter is licensed under [the MIT license](../blob/master/LICENSE) which is part of this repository.

@@ -1,6 +1,6 @@
 {
   "name": "iobroker.egigeozone",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "EgiGeoZone adapter for ioBroker",
   "author": "Bastian Gogolin <basgo@gmx.de>",
   "contributors": [],
