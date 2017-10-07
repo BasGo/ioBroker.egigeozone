@@ -32,7 +32,7 @@
       "readme":                   "https://github.com/BasGo/ioBroker.egigeozone",
       "license":                  "MIT",
       "npmLibs": [],
-      "type":                     "service",
+      "type":                     "geoposition",
       "keywords":                 ["iobroker", "server", "geofence", "egigeozone", "mobile app"],
       "loglevel":                 "info",
       "enabled":                  true,
