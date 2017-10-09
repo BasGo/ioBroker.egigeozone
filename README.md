@@ -26,7 +26,7 @@ Inside EgiGeoZone the URL should be defined using the following syntax:
 protocol://address:port/person
 
 * **protocol** could be **http** or **https**.
-* **address** should be the address where the adapter instace is accessible.
+* **address** should be the address where the adapter instance is accessible.
 * **port** should be the port the adapter is listening on.
 * **person** is the person which will be used to list inside the atHome array.
 
@@ -35,6 +35,9 @@ protocol://address:port/person
 * http://my-domain:7654/Paul
 
 # Changelog
+
+### 0.1.1
+* (BasGo) Added whitespace handling for home location
 
 ### 0.1.0
 * (BasGo) Fixed issue with authorization
