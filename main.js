@@ -243,7 +243,7 @@ function createState(parentId, commonName, commonType) {
 }
 
 function setAtHome(userName, reqData) {
-    if (reqData.name.toLowerCase() !== adapter.config.atHome.toLowerCase()) return;
+    if (reqData.name.trim().toLowerCase() !== adapter.config.atHome.trim().toLowerCase()) return;
     var atHomeCount, atHome;
     adapter.getState(stateAtHomeCount, function (err, obj) {
         if (err) return;

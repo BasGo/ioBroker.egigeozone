@@ -1,0 +1,19 @@
+{
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Launch Program",
+                "program": "${workspaceRoot}\\main.js",
+                "cwd": "${workspaceRoot}",
+                "args": [ "--debug", "--force", "--trace-warnings"]
+            },
+            {
+                "type": "node",
+                "request": "attach",
+                "name": "Attach to process",
+                "port": 5860
+            }
+        ]
+    }
