@@ -1,4 +1,3 @@
-![Logo](admin/egigeozone.png)
 # ioBroker.egigeozone
 
 [![NPM version](https://img.shields.io/npm/v/iobroker.egigeozone.svg)](https://www.npmjs.com/package/iobroker.egigeozone)
@@ -12,7 +11,7 @@
 Windows: [![Build status](https://ci.appveyor.com/api/projects/status/eobyt279ncmd9qbi/branch/master?svg=true)](https://ci.appveyor.com/project/BasGo/iobroker-egigeozone/branch/master)
 
 # Description
-This is an ioBroker adapter for Android geofencing app "EgiGeoZone" ([website](https://egigeozone.de/)). It is able to receive geofence events as HTTP requests when entering or leaving a defined area with your mobile device. The implementation is mostly based on dschaedls [ioBroker.geofency](https://github.com/ioBroker/ioBroker.geofency) adapter.
+This is an ioBroker adapter for Android geofencing app "EgiGeoZone" ([website](https://egigeozone.de/)). It is able to receive geofence events as HTTP requests when entering or leaving a defined area with your mobile device.
 
 # Security advice
 It is not recommended to expose this adapter to the public internet (e.g. by opening the configured port in your router). This means that any request to this port will be forwarded to the ioBroker instance the adapter is running on. There are multiple options for gaining more security for accessing this adapter:
@@ -36,6 +35,10 @@ protocol://address:port/person
 
 # Changelog
 
+### 0.1.2
+* (BasGo) Changed icon
+* (BasGo) Updated NPM reference
+
 ### 0.1.1
 * (BasGo) Added whitespace handling for home location
 
@@ -50,4 +53,7 @@ protocol://address:port/person
 * (BasGo) Initial release
 
 # License
-This adapter is licensed under [the MIT license](../blob/master/LICENSE) which is part of this repository.
+This adapter is licensed under the [MIT license](../blob/master/LICENSE) which is part of this repository.
+
+# Credits
+The implementation is mostly based on dschaedls [ioBroker.geofency](https://github.com/ioBroker/ioBroker.geofency) adapter. The logo has been taken from [Free Icons PNG](http://www.freeiconspng.com/images/maps-icon) and has been modified to have a transparent background.
