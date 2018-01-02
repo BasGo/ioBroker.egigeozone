@@ -15,7 +15,7 @@ var url = require('url');
 var webServer =  null;
 var activate_server = false;
 
-var adapter = utils.adapter({
+var adapter = utils.Adapter({
     name: 'egigeozone',
 
     unload: function (callback) {
