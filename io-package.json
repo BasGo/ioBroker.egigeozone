@@ -39,7 +39,7 @@
         "mode": "daemon",
         "icon": "egigeozone.png",
         "extIcon": "https://raw.githubusercontent.com/BasGo/ioBroker.egigeozone/master/admin/egigeozone.png",
-        "readme": "https://github.com/BasGo/ioBroker.egigeozone",
+        "readme": "https://github.com/BasGo/ioBroker.egigeozone/blob/master/README.md",
         "license": "MIT",
         "npmLibs": [],
         "type": "geoposition",
