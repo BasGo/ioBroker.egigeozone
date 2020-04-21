@@ -10,7 +10,7 @@
 [![NPM](https://nodei.co/npm/iobroker.egigeozone.png?downloads=true)](https://nodei.co/npm/iobroker.egigeozone/)
 
 **Tests:** Linux/Mac: [![Travis-CI](https://img.shields.io/travis/BasGo/ioBroker.egigeozone/master.svg)](https://travis-ci.org/BasGo/ioBroker.egigeozone)
-Windows: [![Build status](https://ci.appveyor.com/api/projects/status/eobyt279ncmd9qbi/branch/master?svg=true)](https://ci.appveyor.com/project/BasGo/iobroker-egigeozone/branch/master)
+Windows: [![Build status](https://ci.appveyor.com/api/projects/status/eobyt279ncmd9qbi/branch/master?svg=true)](https://ci.appveyor.com/project/BasGo/iobroker-egigeozone/branch/master) [![Greenkeeper badge](https://badges.greenkeeper.io/BasGo/ioBroker.egigeozone.svg)](https://greenkeeper.io/)
 
 # Description
 This is an ioBroker adapter for Android geofencing app "EgiGeoZone" ([website](https://egigeozone.de/)). It is able to receive geofence events as HTTP requests when entering or leaving a defined area with your mobile device.
